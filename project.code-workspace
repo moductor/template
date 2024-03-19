@@ -1,5 +1,5 @@
 {
-  "folders": [{ "path": ".", "name": "Moductor Template" }],
+  "folders": [{ "path": ".", "name": "Moductor Project" }],
   "settings": {
     "files.autoSave": "onFocusChange",
     "editor.formatOnSave": true,
