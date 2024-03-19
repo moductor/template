@@ -1,0 +1,22 @@
+{
+  "folders": [{ "path": ".", "name": "Moductor Template" }],
+  "settings": {
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[svg]": {
+      "editor.defaultFormatter": "jock.svg",
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["tv\\({([^;]*)}\\);", "\"([^\"]*)\""],
+      ["tv\\({([^;]*)}\\);", "'([^']*)'"],
+      ["tv\\({([^;]*)}\\);", "\\`([^\\`]*)\\`"],
+    ],
+  },
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"],
+  },
+}
